@@ -2,13 +2,20 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <meta charset="UTF-8" />
     <title>My First Website</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <h1 id="main-title">Hello, World!</h1>
+    
     <p>This is my first ever site. I made it myself</p>
-    <img src="https://placekitten.com/300/200" alt="Cute kitten">
-    <a href="https://google.com">Visit Google</a>
+    <div>
+        <img id="main-image" src="https://picsum.photos/800/500" alt="Random image">
+    </div>
+    <button onclick="refreshImage()">Refresh Image</button>
+
+    
+        
 </body>
 </html>
